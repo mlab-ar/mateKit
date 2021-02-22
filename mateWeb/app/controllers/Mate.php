@@ -6,11 +6,7 @@
         }
 
         public function index(){
-            
-            $datos = [
-                "titulo" => "Bienvenidos a Matelab"
-            ];
-            $this->vista('pages/inicio',$datos);
+            $this->vista('pages/inicioView');
         }
 
         

@@ -9,6 +9,6 @@
    define('RUTA_APP', dirname(dirname(__FILE__)));
    // Ruta url
 
-   define('RUTA_URL','http://localhost/mateKit/mateWeb/');
+   define('RUTA_URL','http://localhost/mateKit/mateWeb');
    define('NOMBRESITIO','MATELAB Software Factory');
 ?>
