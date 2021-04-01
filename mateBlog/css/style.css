@@ -57,6 +57,7 @@ header ul li a {
 
 header ul li a:hover {
   background: #006669;
+  transition: 0.5s;
 }
 
 header .menu-toggle {
