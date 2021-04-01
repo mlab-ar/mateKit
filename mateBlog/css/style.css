@@ -1,0 +1,28 @@
+/* Body style setup */
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #f6f6f6;
+}
+
+/* Header and Navbar setup */
+header {
+  background: #159e4a;
+  height: 66px;
+}
+
+header * {
+  color: white;
+}
+
+header .logo {
+  float: left;
+}
+
+header ul {
+  float: right;
+}
+
+header .menu-toggle {
+  display: none;
+}
