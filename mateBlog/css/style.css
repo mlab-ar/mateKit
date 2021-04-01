@@ -39,6 +39,8 @@ header .logo-text span {
 
 header ul {
   float: right;
+  margin: 0px;
+  padding: 0px;
 }
 
 header .menu-toggle {
