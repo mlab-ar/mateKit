@@ -1,5 +1,5 @@
 /* Importing fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 /* Body style setup */
 * {
@@ -10,7 +10,6 @@ body {
   padding: 0px;
   margin: 0px;
   background: #f6f6f6;
-  font-family: "Roboto", sans-serif;
 }
 
 /* Header and Navbar setup */
@@ -27,6 +26,7 @@ header .logo {
   float: left;
   height: inherit;
   margin-left: 2em;
+  font-family: "Roboto", sans-serif;
 }
 
 header .logo-text {
