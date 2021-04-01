@@ -41,6 +41,11 @@ header ul {
   float: right;
   margin: 0px;
   padding: 0px;
+  list-style: none;
+}
+
+header ul li {
+  float: left;
 }
 
 header .menu-toggle {
