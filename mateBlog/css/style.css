@@ -107,7 +107,16 @@ header ul li ul li a.logout {
   }
   header ul li ul {
     position: static;
-    width: 180px;
-    display: none;
+    width: 100%;
+    display: block;
+    background: inherit;
+  }
+  header ul li ul li a {
+    padding: 10px;
+    background: white;
+    color: #444;
+  }
+  header ul li ul li a.logout {
+    color: red;
   }
 }
