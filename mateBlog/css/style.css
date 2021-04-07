@@ -110,6 +110,7 @@ header ul li ul li a.logout {
   }
 
   .showing {
+    max-height: 100em;
   }
 
   header ul li {
