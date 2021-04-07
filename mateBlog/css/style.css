@@ -117,6 +117,9 @@ header ul li ul li a.logout {
 }
 
 .post-slider .next {
+  position: absolute;
+  top: 50%
+  right: 30px
 }
 
 .post-slider .post-wrapper {
