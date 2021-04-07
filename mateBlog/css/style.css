@@ -73,6 +73,10 @@ header ul li ul {
   display: none;
 }
 
+header ul li:hover ul {
+  display: block;
+}
+
 header ul li ul li {
   width: 100%;
 }
