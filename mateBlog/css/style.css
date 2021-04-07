@@ -10,6 +10,7 @@ body {
   padding: 0px;
   margin: 0px;
   background: #f6f6f6;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Header and Navbar setup */
@@ -26,7 +27,6 @@ header .logo {
   float: left;
   height: inherit;
   margin-left: 2em;
-  font-family: "Roboto", sans-serif;
 }
 
 header .logo-text {
@@ -81,5 +81,5 @@ header ul li ul li a {
 }
 
 header ul li ul li a {
-  background: #006669;
+  background: #d5d6d6;
 }
