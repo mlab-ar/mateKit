@@ -46,6 +46,7 @@ header ul {
 
 header ul li {
   float: left;
+  position: relative;
 }
 
 header ul li a {
@@ -65,4 +66,5 @@ header .menu-toggle {
 }
 
 header ul li ul {
+  position: relative;
 }
