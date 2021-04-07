@@ -75,3 +75,11 @@ header ul li ul {
 header ul li ul li {
   width: 100%;
 }
+
+header ul li ul li a {
+  padding: 10px;
+}
+
+header ul li ul li a {
+  background: #006669;
+}
