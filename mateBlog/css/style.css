@@ -104,6 +104,7 @@ header ul li ul li a.logout {
   width: 84%;
   height: 350px;
   margin: 0px auto;
+  overflow: hidden;
 }
 
 .post-slider .post-wrapper .post {
