@@ -94,3 +94,7 @@ header ul li ul li a:hover {
 header ul li ul li a.logout {
   color: red;
 }
+
+/* Media queries - Responsive front-end */
+
+@media only screen and(max-width: 750px);
