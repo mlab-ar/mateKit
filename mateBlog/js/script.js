@@ -6,7 +6,7 @@ $(document).ready(function(){
     });
 
     // Post slider animation
-    $('.autoplay').slick({
+    $('.post-wrapper').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
