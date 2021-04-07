@@ -109,6 +109,9 @@ header ul li ul li a.logout {
     overflow: hidden;
   }
 
+  .showing {
+  }
+
   header ul li {
     width: 100%;
   }
