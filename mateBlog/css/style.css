@@ -100,6 +100,10 @@ header ul li ul li a.logout {
 .post-slider {
 }
 
+.post-slider .slider-title {
+  text-align: center;
+}
+
 .post-slider .post-wrapper {
   width: 84%;
   height: 350px;
