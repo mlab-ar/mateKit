@@ -71,3 +71,7 @@ header ul li ul {
   right: 0px;
   width: 180px;
 }
+
+header ul li ul li {
+  width: 100%;
+}
