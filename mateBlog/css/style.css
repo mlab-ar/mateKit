@@ -106,9 +106,7 @@ header ul li ul li a.logout {
     width: 100%;
   }
   header ul li ul {
-    position: absolute;
-    top: 66px;
-    right: 0px;
+    position: static;
     width: 180px;
     display: none;
   }
