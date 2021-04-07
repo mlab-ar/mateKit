@@ -135,7 +135,19 @@ header ul li ul li a.logout {
     display: block;
     position: absolute;
     right: 20px;
-    top: 10px;
-    font-size: 1.5em;
+    top: 20px;
+    font-size: 1.9em;
+  }
+
+  header .logo {
+    margin-left: 0.8em;
+  }
+
+  header .logo-text {
+    margin: 9px;
+  }
+
+  header .logo-text span {
+    color: #7fffd4;
   }
 }
