@@ -78,8 +78,9 @@ header ul li ul li {
 
 header ul li ul li a {
   padding: 10px;
+  color: #444;
 }
 
-header ul li ul li a {
+header ul li ul li a:hover {
   background: #d5d6d6;
 }
