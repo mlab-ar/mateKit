@@ -110,6 +110,7 @@ header ul li ul li a.logout {
 .post-slider .post-wrapper .post {
   width: 300px;
   height: 350px;
+  margin: 0px 10px;
   display: inline-block;
   background: red;
 }
