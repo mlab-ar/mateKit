@@ -120,13 +120,18 @@ header ul li ul li a.logout {
   position: absolute;
   top: 50%;
   right: 30px;
-  font-size: 2em;
+  font-size: 3em;
+  color: #006669;
+  cursor: pointer;
 }
 
 .post-slider .prev {
   position: absolute;
   top: 50%;
   left: 30px;
+  font-size: 3em;
+  color: #006669;
+  cursor: pointer;
 }
 
 .post-slider .post-wrapper {
