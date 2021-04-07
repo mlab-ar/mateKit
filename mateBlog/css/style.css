@@ -97,9 +97,19 @@ header ul li ul li a.logout {
 
 /* Media queries - Responsive front-end */
 
-@media only screen and(max-width: 750px) {
+@media only screen and (max-width: 750px) {
   header ul {
     width: 100%;
     background: #159e4a;
+  }
+  header ul li {
+    width: 100%;
+  }
+  header ul li ul {
+    position: absolute;
+    top: 66px;
+    right: 0px;
+    width: 180px;
+    display: none;
   }
 }
