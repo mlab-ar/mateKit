@@ -142,12 +142,4 @@ header ul li ul li a.logout {
   header .logo {
     margin-left: 0.8em;
   }
-
-  header .logo-text {
-    margin: 9px;
-  }
-
-  header .logo-text span {
-    color: #7fffd4;
-  }
 }
