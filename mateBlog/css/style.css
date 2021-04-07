@@ -102,21 +102,30 @@ header ul li ul li a.logout {
     width: 100%;
     background: #159e4a;
   }
+
   header ul li {
     width: 100%;
   }
+
   header ul li ul {
     position: static;
     width: 100%;
     display: block;
     background: inherit;
   }
+
   header ul li ul li a {
     padding: 10px;
-    background: white;
-    color: #444;
+    background: #159e4a;
+    color: white;
+    padding-left: 50px;
   }
+
   header ul li ul li a.logout {
     color: red;
+  }
+
+  header .menu-toggle {
+    display: block;
   }
 }
