@@ -1,3 +1,7 @@
+// Toogle menu animation
+
 $(document).ready(function(){
-    $('.menu-toggle')
+    $('.menu-toggle').on('click', function(){
+        
+    })
 })
