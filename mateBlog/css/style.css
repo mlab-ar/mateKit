@@ -131,8 +131,12 @@ header ul li ul li a.logout {
     padding-left: 50px;
   }
 
+  header ul li ul li a:hover {
+    background: #006669;
+  }
+
   header ul li ul li a.logout {
-    color: red;
+    color: white;
   }
 
   header .menu-toggle {
