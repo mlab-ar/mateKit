@@ -95,6 +95,8 @@ header ul li ul li a.logout {
   color: red;
 }
 
+/* Post slider styles */
+
 /* Media queries - Responsive front-end */
 
 @media only screen and (max-width: 750px) {
