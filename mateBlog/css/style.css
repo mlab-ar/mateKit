@@ -118,8 +118,15 @@ header ul li ul li a.logout {
 
 .post-slider .next {
   position: absolute;
-  top: 50%
-  right: 30px
+  top: 50%;
+  right: 30px;
+  font-size: 2em;
+}
+
+.post-slider .prev {
+  position: absolute;
+  top: 50%;
+  left: 30px;
 }
 
 .post-slider .post-wrapper {
