@@ -197,6 +197,17 @@ header ul li ul li a.logout {
   border: 1px solid blue;
 }
 
+.content .main-content .post {
+  width: 95%;
+  height: 270px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.content .main-content .recent-post-title {
+  margin: 20px;
+}
+
 .content .sidebar {
   width: 30%;
   float: left;
