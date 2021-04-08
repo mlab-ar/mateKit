@@ -219,6 +219,16 @@ header ul li ul li a.logout {
   position: relative;
 }
 
+.content .main-content .post .read-more {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border: 1px solid #159e4a;
+  background: transparent;
+  border-radius: 0px;
+  color: #159e4a;
+}
+
 .content .main-content .post .post-image {
   width: 40%;
   height: 100%;
