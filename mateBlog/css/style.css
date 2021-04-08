@@ -214,6 +214,7 @@ header ul li ul li a.logout {
 .content .main-content .post .post-preview {
   width: 60%;
   padding: 10px;
+  float: right;
 }
 
 .content .main-content .recent-post-title {
