@@ -50,6 +50,8 @@ a {
 
 .text-input {
   padding: 0.7rem 1rem;
+  display: block;
+  width: 100%;
 }
 
 /* Header and Navbar setup */
