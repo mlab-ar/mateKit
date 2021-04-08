@@ -200,13 +200,13 @@ header ul li ul li a.logout {
 .content .main-content .post {
   width: 95%;
   height: 270px;
-  margin: 10px auto;
+  margin: 10px auto auto 20px;
   border-radius: 5px;
   background: white;
 }
 
 .content .main-content .post .post-image {
-  widows: 40%;
+  width: 40%;
   height: 100%;
   float: left;
 }
