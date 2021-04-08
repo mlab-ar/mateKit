@@ -191,6 +191,13 @@ header ul li ul li a.logout {
   border: 1 solid blue;
 }
 
+.content .sidebar {
+  width: 30%;
+  float: left;
+  border: 1px dashed green;
+  height: 300px;
+}
+
 /* Media queries - Responsive front-end */
 
 @media only screen and (max-width: 750px) {
