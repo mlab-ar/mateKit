@@ -188,14 +188,14 @@ header ul li ul li a.logout {
 .content .main-content {
   width: 70%;
   float: left;
-  border: 1 solid blue;
+  border: 1px solid blue;
 }
 
 .content .sidebar {
   width: 30%;
   float: left;
   border: 1px dashed green;
-  height: 300px;
+  height: 700px;
 }
 
 /* Media queries - Responsive front-end */
