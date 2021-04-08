@@ -229,6 +229,10 @@ header ul li ul li a.logout {
   color: #159e4a !important;
 }
 
+.content .main-content .post .read-more:hover {
+  background: #159e4a;
+}
+
 .content .main-content .post .post-image {
   width: 40%;
   height: 100%;
