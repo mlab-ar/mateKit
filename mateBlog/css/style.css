@@ -177,6 +177,12 @@ header ul li ul li a.logout {
   border-top-right-radius: 5px;
 }
 
+/* Content styles */
+
+.content {
+  width: 90%;
+}
+
 /* Media queries - Responsive front-end */
 
 @media only screen and (max-width: 750px) {
