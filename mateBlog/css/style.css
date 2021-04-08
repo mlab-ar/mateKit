@@ -283,6 +283,9 @@ header ul li ul li a.logout {
   margin-top: 80px;
 }
 
+.content .sidebar .section.topics {
+}
+
 /* Media queries - Responsive front-end */
 
 @media only screen and (max-width: 750px) {
