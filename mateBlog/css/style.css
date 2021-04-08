@@ -205,6 +205,12 @@ header ul li ul li a.logout {
   background: white;
 }
 
+.content .main-content .post .post-image {
+  widows: 40%;
+  height: 100%;
+  float: left;
+}
+
 .content .main-content .recent-post-title {
   margin: 20px;
 }
