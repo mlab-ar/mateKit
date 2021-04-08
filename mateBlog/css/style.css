@@ -149,6 +149,10 @@ header ul li ul li a.logout {
   background: red;
 }
 
+.post-slider .post-wrapper .post .slider-image {
+  width: 100%;
+}
+
 /* Media queries - Responsive front-end */
 
 @media only screen and (max-width: 750px) {
