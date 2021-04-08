@@ -21,6 +21,11 @@ h5,
 h6 {
   font-family: "Roboto", serif;
   color: #444;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Header and Navbar setup */
