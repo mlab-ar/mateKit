@@ -231,6 +231,8 @@ header ul li ul li a.logout {
 
 .content .main-content .post .read-more:hover {
   background: #159e4a;
+  color: white !important;
+  transition: 0.25s;
 }
 
 .content .main-content .post .post-image {
