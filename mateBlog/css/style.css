@@ -111,6 +111,12 @@ header ul li ul li a.logout {
   color: red;
 }
 
+/* Page Wrapper Style */
+
+.page-wrapper a:hover {
+  color: #159e4a;
+}
+
 /* Post slider styles */
 
 .post-slider {
@@ -160,6 +166,7 @@ header ul li ul li a.logout {
 
 .post-slider .post-wrapper .post .post-info {
   height: 130px;
+  padding: 0px 5px;
 }
 
 .post-slider .post-wrapper .post .slider-image {
