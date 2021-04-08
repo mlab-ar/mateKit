@@ -29,6 +29,12 @@ a {
   color: inherit;
 }
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 /* Header and Navbar setup */
 header {
   background: #159e4a;
