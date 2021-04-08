@@ -148,11 +148,14 @@ header ul li ul li a.logout {
   margin: 0px 10px;
   display: inline-block;
   background: white;
+  border-radius: 5px;
 }
 
 .post-slider .post-wrapper .post .slider-image {
   width: 100%;
   height: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 /* Media queries - Responsive front-end */
