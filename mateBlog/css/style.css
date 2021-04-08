@@ -283,7 +283,10 @@ header ul li ul li a.logout {
   margin-top: 80px;
 }
 
-.content .sidebar .section.topics {
+.content .sidebar .section.topics ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
 /* Media queries - Responsive front-end */
