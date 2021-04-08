@@ -48,6 +48,10 @@ a {
   background: #159e4a;
 }
 
+.text-input {
+  padding: 0.7rem 1rem;
+}
+
 /* Header and Navbar setup */
 header {
   background: #159e4a;
@@ -251,10 +255,23 @@ header ul li ul li a.logout {
   margin: 20px;
 }
 
+/* Sidebar styles */
+
 .content .sidebar {
   width: 30%;
   float: left;
   height: 700px;
+}
+
+.content .sidebar .section {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.content .sidebar .section.search {
+  margin-top: 80px;
 }
 
 /* Media queries - Responsive front-end */
