@@ -211,6 +211,10 @@ header ul li ul li a.logout {
   float: left;
 }
 
+.content .main-content .post .post-preview {
+  padding: 10px;
+}
+
 .content .main-content .recent-post-title {
   margin: 20px;
 }
