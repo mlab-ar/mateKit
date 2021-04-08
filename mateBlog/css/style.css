@@ -35,6 +35,14 @@ a {
   clear: both;
 }
 
+.btn {
+  padding: 0.5rem 1rem;
+  background: #006669;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
 /* Header and Navbar setup */
 header {
   background: #159e4a;
