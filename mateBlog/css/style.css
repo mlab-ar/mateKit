@@ -226,7 +226,7 @@ header ul li ul li a.logout {
   border: 1px solid #159e4a;
   background: transparent;
   border-radius: 0px;
-  color: #159e4a;
+  color: #159e4a !important;
 }
 
 .content .main-content .post .post-image {
