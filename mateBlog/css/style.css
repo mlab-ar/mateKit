@@ -289,6 +289,10 @@ header ul li ul li a.logout {
   list-style: none;
 }
 
+.content .sidebar .section.topics ul li a {
+  display: block;
+}
+
 /* Media queries - Responsive front-end */
 
 @media only screen and (max-width: 750px) {
