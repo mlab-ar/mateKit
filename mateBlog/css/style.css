@@ -298,6 +298,7 @@ header ul li ul li a.logout {
 
 .content .sidebar .section.topics ul li a:hover {
   padding-left: 20px;
+  transition: all 0.3s;
 }
 
 /* Media queries - Responsive front-end */
