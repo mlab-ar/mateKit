@@ -292,6 +292,7 @@ header ul li ul li a.logout {
 .content .sidebar .section.topics ul li a {
   display: block;
   padding: 15px 0px 15px;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 /* Media queries - Responsive front-end */
