@@ -294,10 +294,11 @@ header ul li ul li a.logout {
   display: block;
   padding: 15px 0px 15px;
   border-bottom: 1px solid #e0e0e0;
+  transition: all 0.3s;
 }
 
 .content .sidebar .section.topics ul li a:hover {
-  padding-left: 20px;
+  padding-left: 10px;
   transition: all 0.3s;
 }
 
