@@ -287,6 +287,7 @@ header ul li ul li a.logout {
   margin: 0px;
   padding: 0px;
   list-style: none;
+  border-top: 1px solid #e0e0e0;
 }
 
 .content .sidebar .section.topics ul li a {
