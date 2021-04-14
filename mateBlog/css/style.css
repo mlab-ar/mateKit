@@ -306,6 +306,12 @@ header ul li ul li a.logout {
   transition: all 0.3s;
 }
 
+/* Footer Styles */
+
+.footer {
+  background: #303036;
+}
+
 /* Media queries - Responsive front-end */
 
 @media only screen and (max-width: 750px) {
