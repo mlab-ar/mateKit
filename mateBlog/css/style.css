@@ -323,6 +323,7 @@ header ul li ul li a.logout {
   position: absolute;
   bottom: 0px;
   left: 0px;
+  padding-top: 20px;
 }
 
 /* Media queries - Responsive front-end */
