@@ -310,6 +310,8 @@ header ul li ul li a.logout {
 
 .footer {
   background: #303036;
+  color: #d3d3d3;
+  height: 400px;
 }
 
 /* Media queries - Responsive front-end */
