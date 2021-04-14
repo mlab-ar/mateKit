@@ -146,6 +146,10 @@ header ul li ul li a.logout {
 
 /* Page Wrapper Style */
 
+.page-wrapper {
+  min-height: 100%;
+}
+
 .page-wrapper a:hover {
   color: #159e4a;
 }
