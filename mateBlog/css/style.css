@@ -315,6 +315,10 @@ header ul li ul li a.logout {
   position: relative;
 }
 
+.footer .footer-content {
+  height: 350px;
+}
+
 .footer .footer-bottom {
   background: #343a40;
   color: #686868;
