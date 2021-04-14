@@ -321,6 +321,8 @@ header ul li ul li a.logout {
   height: 50px;
   text-align: center;
   position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
 
 /* Media queries - Responsive front-end */
