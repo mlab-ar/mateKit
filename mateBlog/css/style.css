@@ -321,6 +321,7 @@ header ul li ul li a.logout {
 
 .footer .footer-content {
   height: 350px;
+  display: flex;
 }
 
 .footer .footer-bottom {
