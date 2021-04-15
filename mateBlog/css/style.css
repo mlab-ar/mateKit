@@ -324,6 +324,10 @@ header ul li ul li a.logout {
   display: flex;
 }
 
+.footer .footer-content .footer-section {
+  flex: 1;
+}
+
 .footer .footer-bottom {
   background: #343a40;
   color: #686868;
