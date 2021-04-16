@@ -21,7 +21,7 @@ $(document).ready(function(){
                 slidesToScroll: 3,
                 infinite: true,
                 dots: true
-              }
+              } 
             },
             {
               breakpoint: 600,
