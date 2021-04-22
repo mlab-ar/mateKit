@@ -344,6 +344,10 @@ header ul li ul li a.logout {
   margin-bottom: 8px;
 }
 
+.footer .footer-content .about .socials a {
+  width: 45px;
+}
+
 .footer .footer-bottom {
   background: #343a40;
   color: #686868;
