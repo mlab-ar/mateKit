@@ -334,6 +334,10 @@ header ul li ul li a.logout {
   color: white;
 }
 
+.footer .footer-content .about h1 span {
+  color: #7fffd4;
+}
+
 .footer .footer-bottom {
   background: #343a40;
   color: #686868;
