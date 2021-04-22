@@ -338,6 +338,12 @@ header ul li ul li a.logout {
   color: #7fffd4;
 }
 
+.footer .footer-content .about .contact span {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
 .footer .footer-bottom {
   background: #343a40;
   color: #686868;
