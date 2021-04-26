@@ -48,6 +48,10 @@ a {
   background: #159e4a;
 }
 
+.btn-big {
+  padding: 0.5rem 1rem;
+}
+
 .text-input {
   padding: 0.7rem 1rem;
   display: block;
