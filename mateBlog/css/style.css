@@ -366,6 +366,9 @@ header ul li ul li a.logout {
   background: #272727;
   color: #bebdbd;
   margin-bottom: 10px;
+  line-height: 1.5rem;
+  padding: 0.7rem 1.2rem;
+  border: none;
 }
 
 .footer .footer-content .links ul a {
