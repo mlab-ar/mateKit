@@ -352,6 +352,12 @@ header ul li ul li a.logout {
   text-align: center;
   display: inline-block;
   font-size: 1.3em;
+  border-radius: 5px;
+}
+
+.footer .footer-content .about .socials a:hover {
+  border: 1px solid white;
+  color: white;
 }
 
 .footer .footer-bottom {
