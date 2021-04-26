@@ -358,6 +358,7 @@ header ul li ul li a.logout {
 .footer .footer-content .about .socials a:hover {
   border: 1px solid white;
   color: white;
+  transition: all 0.3s;
 }
 
 .footer .footer-bottom {
