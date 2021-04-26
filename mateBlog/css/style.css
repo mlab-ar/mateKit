@@ -353,6 +353,7 @@ header ul li ul li a.logout {
   display: inline-block;
   font-size: 1.3em;
   border-radius: 5px;
+  transition: all 0.3s;
 }
 
 .footer .footer-content .about .socials a:hover {
