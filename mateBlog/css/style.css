@@ -365,6 +365,7 @@ header ul li ul li a.logout {
 .footer .footer-content .contact-form .contact-input {
   background: #272727;
   color: #bebdbd;
+  margin-bottom: 10px;
 }
 
 .footer .footer-content .links ul a {
