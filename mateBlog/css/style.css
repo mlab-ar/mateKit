@@ -49,7 +49,8 @@ a {
 }
 
 .btn-big {
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 1.3rem;
+  line-height: 1.3rem;
 }
 
 .text-input {
@@ -377,6 +378,10 @@ header ul li ul li a.logout {
 
 footer .footer-content .contact-form .contact-input:focus {
   background: #1a1a1a;
+}
+
+.footer .footer-content .contact-form .contact-btn {
+  float: right;
 }
 
 .footer .footer-content .links ul a {
