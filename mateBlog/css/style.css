@@ -362,6 +362,12 @@ header ul li ul li a.logout {
   transition: all 0.3s;
 }
 
+.footer .footer-content .links ul a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
 .footer .footer-bottom {
   background: #343a40;
   color: #686868;
