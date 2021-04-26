@@ -362,6 +362,11 @@ header ul li ul li a.logout {
   transition: all 0.3s;
 }
 
+.footer .footer-content .contact-form .contact-input {
+  background: #272727;
+  color: #bebdbd;
+}
+
 .footer .footer-content .links ul a {
   display: block;
   margin-bottom: 10px;
