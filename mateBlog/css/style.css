@@ -367,8 +367,12 @@ header ul li ul li a.logout {
   color: #bebdbd;
   margin-bottom: 10px;
   line-height: 1.5rem;
-  padding: 0.7rem 1.2rem;
+  padding: 0.9rem 1.4rem;
   border: none;
+}
+
+footer .footer-content .contact-form .contact-input:focus {
+  background: #1a1a1a;
 }
 
 .footer .footer-content .links ul a {
