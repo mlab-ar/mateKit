@@ -368,6 +368,12 @@ header ul li ul li a.logout {
   font-size: 1.2em;
 }
 
+.footer .footer-content .links ul a:hover {
+  color: white;
+  margin-left: 15px;
+  transition: all 0.3s;
+}
+
 .footer .footer-bottom {
   background: #343a40;
   color: #686868;
