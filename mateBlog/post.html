@@ -1,18 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
-    <!-- Meta tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <!-- Meta links -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Scale viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b3353cf930.js" crossorigin="anonymous"></script>
 
-    <!-- Title -->
-    <title>Mate Blog - Post</title>
-</head>
-<body>
-    
-</body>
+    <!-- Custom Styling -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Mate Blog - Single Post</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1 class="logo-text"><span>mate</span>Blog</span></h1>
+      </div>
+      <i class="fas fa-bars menu-toggle"></i>
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Acerca</a></li>
+        <li><a href="#">Contacto</a></li>
+        <!--<li><a href="#">Registrate</a></li>
+        <li><a href="#">Login</a></li>-->
+        <li>
+          <a href="#">
+            <i class="fas fa-user"></i>
+            &nbsp;Acceso&nbsp;
+            <i class="fas fa-chevron-down"></i>
+          </a>
+          <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#" class="logout">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Page Wrapper for the whole website -->
+    <div class="page-wrapper">
+
+      <!-- Post slider -->
+      <div class="post-slider">
+        <h1 class="slider-title">Trending Posts</h1>
+
+        <i class="fas fa-chevron-left prev"></i>
+        <i class="fas fa-chevron-right next"></i>
+
+          <div class="post-wrapper">
+
+            <div class="post">
+              <img src="./images/image_1.png" alt="" class="slider-image">
+              <div class="post-info">
+                <h2><a href="post.html">Test title for a trending post</a></h2>
+                <i class="fas fa-user"><span> </span> Juan P. Romano</i>
+                &nbsp;
+                <i class="fas fa-calendar"><span> </span> Apr 06, 2021</i>
+              </div>
+            </div>
+
+            <div class="post">
+              <img src="./images/image_2.png" alt="" class="slider-image">
+              <div class="post-info">
+                <h2><a href="post.html">Test title for a trending post</a></h2>
+                <i class="fas fa-user"><span> </span> Juan P. Romano</i>
+                &nbsp;
+                <i class="fas fa-calendar"><span> </span> Apr 06, 2021</i>
+              </div>
+            </div>
+
+            <div class="post">
+              <img src="./images/image_3.png" alt="" class="slider-image">
+              <div class="post-info">
+                <h2><a href="post.html">Test title for a trending post</a></h2>
+                <i class="fas fa-user"><span> </span> Juan P. Romano</i>
+                &nbsp;
+                <i class="fas fa-calendar"><span> </span> Apr 06, 2021</i>
+              </div>
+            </div>
+
+            <div class="post">
+              <img src="./images/image_4.png" alt="" class="slider-image">
+              <div class="post-info">
+                <h2><a href="post.html">Test title for a trending post</a></h2>
+                <i class="fas fa-user"><span> </span> Juan P. Romano</i>
+                &nbsp;
+                <i class="fas fa-calendar"><span> </span> Apr 06, 2021</i>
+              </div>
+            </div>
+
+            <div class="post">
+              <img src="./images/image_5.png" alt="" class="slider-image">
+              <div class="post-info">
+                <h2><a href="post.html">Test title for a trending post</a></h2>
+                <i class="fas fa-user"><span> </span> Juan P. Romano</i>
+                &nbsp;
+                <i class="fas fa-calendar"><span> </span> Apr 06, 2021</i>
+              </div>
+            </div>
+
+          </div>
+
+      </div>
+      <!-- End Post slider-->
+
+      <!-- Content section -->
+      <div class="content clearfix">
+        
+        <!-- Main content -->
+        <div class="main-content">
+          <h1 class="recent-post-title">Recent Posts</h1>
+
+          <div class="post">
+            <img src="./images/image_3.png" alt="" class="post-image">
+            <div class="post-preview">
+              <h2><a href="post.html">Another test title for the barebones blog</a></h2>
+              <i class="fas fa-user"> Juan P. Romano</i>
+              &nbsp;
+              <i class="fas fa-calendar"> Apr 07, 2021</i>
+              <p class="preview-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Earum ad tempore quia aperiam veritatis iste iusto at odio adipisci expedita quasi nemo, eos, amet omnis quibusdam eaque quisquam nam voluptatibus.
+              </p>
+              <a href="post.html" class="btn read-more">Read More</a>
+            </div>
+          </div>
+
+          <div class="post">
+            <img src="./images/image_3.png" alt="" class="post-image">
+            <div class="post-preview">
+              <h2><a href="post.html">Another test title for the barebones blog</a></h2>
+              <i class="fas fa-user"> Juan P. Romano</i>
+              &nbsp;
+              <i class="fas fa-calendar"> Apr 07, 2021</i>
+              <p class="preview-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Earum ad tempore quia aperiam veritatis iste iusto at odio adipisci expedita quasi nemo, eos, amet omnis quibusdam eaque quisquam nam voluptatibus.
+              </p>
+              <a href="post.html" class="btn read-more">Read More</a>
+            </div>
+          </div>
+
+          <div class="post">
+            <img src="./images/image_3.png" alt="" class="post-image">
+            <div class="post-preview">
+              <h2><a href="post.html">Another test title for the barebones blog</a></h2>
+              <i class="fas fa-user"> Juan P. Romano</i>
+              &nbsp;
+              <i class="fas fa-calendar"> Apr 07, 2021</i>
+              <p class="preview-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Earum ad tempore quia aperiam veritatis iste iusto at odio adipisci expedita quasi nemo, eos, amet omnis quibusdam eaque quisquam nam voluptatibus.
+              </p>
+              <a href="post.html" class="btn read-more">Read More</a>
+            </div>
+          </div>
+
+        </div>
+        <!--End Main content -->
+      
+        <!-- Sidebar section -->
+        <div class="sidebar">
+
+          <div class="section search">
+            <h2 class="section-title">Search</h2>
+            <form action="index.html" method="post">
+              <input type="text" name="search-term" class="text-input" placeholder="Search...">
+            </form>
+          </div>
+
+          <div class="section topics">
+            <h2 class="section-title">Topics</h2>
+            <ul>
+              <li><a href="#">Test topic</a></li>
+              <li><a href="#">Test topic</a></li>
+              <li><a href="#">Test topic</a></li>
+              <li><a href="#">Test topic</a></li>
+              <li><a href="#">Test topic</a></li>
+              <li><a href="#">Test topic</a></li>
+              <li><a href="#">Test topic</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End sidebar section -->
+
+      </div>
+
+      <!-- End content section -->
+
+    </div>
+    <!-- End Page Wrapper -->
+
+    <!-- Footer -->
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+
+          <h1 class="logo-text"><span>mate</span>Blog</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam commodi neque repudiandae dolores officia cum quod facere nesciunt tenetur, quam rem vitae tempora sapiente placeat vero. Culpa repellendus aliquam mollitia.
+          </p>
+          <div class="contact">
+            <span><i class="fas fa-phone"></i> &nbsp; +54 9 11 2180 5256</span>
+            <span><i class="fas fa-envelope"></i> &nbsp; <a href="mailto:blog@matelab.com.ar">blog@matelab.com.ar</a></span>
+          </div>
+          <div class="socials">
+            <a href="https://www.facebook.com/MateLab.ok" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/matelabtech" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/matelab.ok" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://ar.linkedin.com/company/mate-lab" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://medium.com/@matelab" target="_blank"><i class="fab fa-medium"></i></a>
+            <a href="https://www.youtube.com/channel/UCVeIN8OqiORP0dGXNMqpUPQ" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://github.com/matelab" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://gitlab.com/matelab" target="_blank"><i class="fab fa-gitlab"></i></a>
+          </div>
+        </div>
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <br>
+          <ul>
+            <li><a href="#">Test Quick Link</a></li>
+            <li><a href="#">Test Quick Link</a></li>
+            <li><a href="#">Test Quick Link</a></li>
+            <li><a href="#">Test Quick Link</a></li>
+            <li><a href="#">Test Quick Link</a></li>
+            <li><a href="#">Test Quick Link</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact-form">
+          <h2>Contact us</h2>
+          <br>
+          <form action="index.html" method="post">
+            <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+            <textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+            <button type="submit" class="btn btn-big contact-btn">
+              <i class="fas fa-envelope"></i>
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; Matelab 2021 | Designed & Powered by <a href="https://matelab.com.ar" target="_blank">Matelab</a>
+      </div>
+    </div>
+
+    <!-- End footer -->
+
+    <!-- ================== SCRIPTS ================== -->
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
+    crossorigin="anonymous"></script>
+
+    <!-- Custom Script -->
+    <script src="./js/script.js"></script>
+
+    <!-- Slick slider -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  </body>
 </html>
