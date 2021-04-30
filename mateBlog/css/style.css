@@ -383,6 +383,7 @@ footer .footer-content .contact-form .contact-input:focus {
 .footer .footer-content .contact-form .contact-btn {
   float: right;
   font-size: 1.1em;
+  font-family: "Roboto", "sans-serif";
 }
 
 .footer .footer-content .links ul a {
