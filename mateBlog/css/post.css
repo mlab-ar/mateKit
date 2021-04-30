@@ -1,5 +1,11 @@
+/* Single page blog post styles */
+
 .content .main-content.single {
   background: white;
   padding: 20px 50px;
   font-size: 1.1em;
+}
+
+.content .sidebar.single {
+  padding: 0px 10px;
 }
