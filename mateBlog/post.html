@@ -15,30 +15,8 @@
     <title>Mate Blog - Single Post</title>
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <h1 class="logo-text"><span>mate</span>Blog</span></h1>
-      </div>
-      <i class="fas fa-bars menu-toggle"></i>
-      <ul class="nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Acerca</a></li>
-        <li><a href="#">Contacto</a></li>
-        <!--<li><a href="#">Registrate</a></li>
-        <li><a href="#">Login</a></li>-->
-        <li>
-          <a href="#">
-            <i class="fas fa-user"></i>
-            &nbsp;Acceso&nbsp;
-            <i class="fas fa-chevron-down"></i>
-          </a>
-          <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#" class="logout">Logout</a></li>
-          </ul>
-        </li>
-      </ul>
-    </header>
+    <!-- Calling the header component -->
+    <div id="incluideHeader"></div>
 
     <!-- Page Wrapper for the whole website -->
     <div class="page-wrapper">
@@ -47,7 +25,7 @@
       <div class="content clearfix">
         
         <!-- Main content -->
-        <div class="main-content">
+        <div class="main-content single">
             <h1 class="post-title">This is the title of the post!</h1>
         </div>
         <!--End Main content -->
@@ -143,7 +121,8 @@
     crossorigin="anonymous"></script>
 
     <!-- Custom Script -->
-    <script src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/components.js"></script>
 
     <!-- Slick slider -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
