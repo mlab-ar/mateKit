@@ -16,7 +16,13 @@
   padding: 0px 10px;
 }
 
-.contents .popular .post {
+.content .popular .post {
   margin-top: 10px;
-  padding-top: ;
+  padding-top: 10px;
+}
+
+.content .popular .post img {
+  height: 60px;
+  width: 60px;
+  float: left;
 }
