@@ -19,6 +19,7 @@
 .content .popular .post {
   margin-top: 10px;
   padding-top: 10px;
+  border-top: 1px solid #e0e0e0;
 }
 
 .content .popular .post img {
